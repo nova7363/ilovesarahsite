@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    background-color: #f8f9fa; /* Light gray background color */
+    background-image: url('layered-waves-haikei (2).svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px; /* Add space between the header and options */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px; /* Adjust the distance of the header from the top */
+    font-size: 32px; /* Larger font size for the main header */
+    color: #ca23a0; /* Dark pink color */
+}
+
+.option {
+    margin-bottom: 20px; /* Adjust the space between the buttons */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ca23a0; /* Light pink background color */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.button:hover {
+    background-color: #FF1493; /* Dark pink background color on hover */
+}
+
+.navigation-bar {
+    width: 100%; /* Full width */
+    background-color: #ca23a0; /* Dark pink background color */
+    padding: 20px; /* Add padding to the navigation bar */
+    text-align: center; /* Center align the reason items */
+}
+
+.reason-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.reason-item {
+    margin-bottom: 10px; /* Add space between each reason item */
+}
+
+.reason-item a {
+    display: block;
+    text-decoration: none;
+    color: #fff; /* White text color */
+    background-color: #FF1493; /* Dark pink background color */
+    padding: 10px;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.reason-item a:hover {
+    background-color: #ca23a0; /* Light pink background color on hover */
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px; /* Adjust the top margin as needed */
+    color: #fff; /* White text color */
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #fff; /* White text color */
+}
+
+.header h2 {
+    font-size: 24px;
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.reason-content p {
+    color: #fff; /* White text color */
+}
